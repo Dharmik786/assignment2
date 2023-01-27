@@ -1,0 +1,251 @@
+section
+{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid black; */
+}
+.menu-bar{
+   margin-top: 15px;
+   margin-left: 29px;
+   width: 30px;
+   height: 30px;
+}
+.header-logo{
+    margin-top: 15px;
+   margin-left: 25px;
+   width: 140px;
+   height: 30px;
+
+}
+.search-icon{
+    margin-top: 17px;
+   margin-left: 50px;
+    width: 20px;
+    height: 24px;
+}
+.search-box{
+    margin-top: 17px;
+    margin-left :15px;
+    width: auto;
+    height: 21px;
+
+}
+.right-header{
+    display: flex;
+    flex-direction: row;
+}
+.bell{
+    margin-top: 15px;
+    height: 35px;
+    width: 25px;
+    margin-left: 815px;
+}
+.profile-pic{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+}
+span{
+    width: 75px;
+    height: 15px;
+    margin-top: 23px;
+    margin-left: 15px;
+    font-size: 18px;   
+}
+.downward-arrow{
+    margin-top: 24px;
+    width: 18px;
+    height: 18px;
+}
+/* ---------------------------left bar----------------------- */
+.Second-row{
+    display: flex;
+    flex-direction: row;
+}
+.left-bar{
+    width: 242px;
+    height: 100%;
+    margin-top: 15px;
+    /* border: 2px solid red;   */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.slide-item-active{
+    color: #C8242F;
+    background-color: #FFF3F4;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 183px;
+    height: 43px;
+}
+.slide-item{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 183px;
+    height: 43px;
+}
+.span2 
+{
+    width: 75px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.icon{
+    /* width: 18px; */
+    /* height: 18px; */
+    margin-top: 10px;
+        width: 54px;
+        height: 21px;
+
+}
+.sa{
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 33px;
+}
+.right-bar{
+    background-color: #fafafa;
+}
+.form-analysis{
+    width: 1218px;
+    height: 1749px;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.uname{
+    width: 1157px;
+    height: 49px;
+    border-radius: 5px;
+}
+.dropdown{
+    width: 1157px;
+    height: 49px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#textarea{
+    width: 1157px;
+    height: 130px;
+    margin-top:20px;
+    border-radius: 5px;
+}
+#column2{
+    margin-top: 20px;
+}
+.unmae2{
+    width: 563px;
+    height: 49px;
+    border-radius: 5px;
+}
+.uname3{
+    width: 563px;
+    height: 49px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.psw
+{
+    width: 564px;
+    height: 47px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.dropdown2{
+     width: 564px;
+    height: 47px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#column3{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.uname4{
+    width: 365px;
+    height: 47px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.psw2{
+    width: 365px;
+    height: 47px;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+.uname5{
+    width: 365px;
+    height: 47px;
+    margin-left: 32px;
+    border-radius: 5px;
+    border: 1px dashed #ADADAD;
+}
+#column4{
+    margin-top: 20px;
+}
+.designation{
+    width: 266px;
+    height: 47px;
+}
+.uname5{
+    width: 266px;
+    height: 47px;
+    margin-left: 30px;
+}
+.uname6{
+    width: 266px;
+    height: 47px;
+    margin-left: 30px;
+}
+.dropdown3{
+    width: 266px;
+    height: 47px;
+    margin-left: 30px;
+}
+.ode{
+    margin-top:20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.fp{
+    width: 90px;
+    height: 24px;
+    font-size: 18px;
+    
+}
+.rb{
+    width: 104px;
+    /* height: 24px; */
+    margin-top: 25px;
+    font-size: 18px;
+}
+.cb{
+    /* width: 104px; */
+    /* height: 24px; */
+    margin-top: 20px;
+    font-size: 18px;    
+
+}
+.cta{
+    width: 106px;
+    height: 24px;
+    font-size: 18px;
+    margin-top: 25px;
+}

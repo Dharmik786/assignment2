@@ -1,0 +1,107 @@
+.conatiner{
+    height: 720px;
+    width: 1560px;
+}
+.left{
+    width: 576px;
+    height: 576px;
+    margin-top: 72px;
+    margin-left: 166px;
+    margin-bottom: 72px;
+    float: left;
+}
+
+#hero{
+    border: 20px solid #FFFFFF;
+    box-shadow: 0px 4px 31px #0000000A;
+    border-radius: 50%;
+}
+.right{
+    margin-top: 72px;
+    float: left;
+}    
+#favicon{
+    margin-top: 50px;
+    margin-left: 164px;
+    width: 272px;
+    height: 58px;
+}
+#txt{
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 164px;
+    font: normal;
+    font-size: 33px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#expert{
+    color: #C8242F;
+    font-weight: bold;
+}
+#log{
+    margin-left: 164px;
+    margin-top: 2px;
+    font: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 260px;
+    height: 33px;
+    font-size: 22px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+#uname{
+    margin-top: 23px;
+    width: 429px;
+    height: 49px;
+    margin-left: 164px;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+#pwd
+{
+    margin-top: 27px;
+    width: 429px;
+    height: 49px;
+    margin-left: 164px;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+::placeholder{
+    width: 250px;
+    height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#btn
+{
+    margin-top: 35px;
+    margin-left: 164px;
+    width: 138px;
+    height: 45px;
+    background-color:  red;
+    border-radius: 23px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#fp{
+   margin-left: 170px;
+   font: normal normal normal 15px/20px Roboto;
+   letter-spacing: 0px;
+   color: #ADADAD;
+   opacity: 1
+    
+}
+#nm{
+    margin-left: 164px;
+    margin-top: 23px;
+}
+#rh{
+    color: red;
+    width: 88px;
+    height: 20px;
+}
+button{
+    cursor: pointer;
+}
