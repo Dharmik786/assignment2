@@ -1,6 +1,8 @@
 .conatiner{
-    height: 720px;
-    width: 1560px;
+    /* height: 720px; */
+    /* width: 1560px; */
+    width: auto;
+    display: contents;
 }
 .left{
     width: 576px;
@@ -104,4 +106,56 @@
 }
 button{
     cursor: pointer;
+}
+
+@media only screen and (min-width:360px) and (max-width:1300px){
+    .conatiner{
+        display: contents;
+    }
+    .left{
+        margin-bottom: 0px;
+    }
+    .right{
+        width: auto;
+        margin-top: 0px;
+    }
+    #favicon{
+        width: 600px;
+        height: 224px
+   }
+    #txt{
+        width: 80%;
+    font-size: 60px
+    }
+    #log{
+        font-size: 30px;
+        width: auto;
+        margin-top: 10px;
+
+    }
+    #uname{
+        width: 70%;
+        height: 60px;
+    }
+    #pwd{
+        width: 70%;
+        height: 60px;
+    }
+    #btn{
+        width: 157px;
+        height: 60px;
+        font-size: 28px;
+    }
+    #fp{
+        font-size: 33px;
+    }
+    #nm{
+        font-size: 35px;
+
+    }
+}
+@media only screen and (min-width:1301px) and (max-width:1422px){
+    .left{
+        margin-left: auto;
+    }
 }

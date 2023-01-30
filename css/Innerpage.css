@@ -190,6 +190,12 @@ span{
     border-radius: 5px;
     margin-left: 32px;
 }
+.disabled{
+     width: 365px;
+    height: 47px;
+    margin-left: 32px;
+}
+
 .uname5{
     width: 365px;
     height: 47px;
@@ -243,9 +249,101 @@ span{
     font-size: 18px;    
 
 }
+.error{
+  padding: 10px;
+  /* background-color: #f44336; */
+  /* color: white; */
+   width: 563px;
+    height: 44px;
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+}
+.error-icon{
+    width: 23px;
+    height: 26px;
+
+}
+.info-icon{
+    width: 23px;
+    height: 26px;
+
+}
+.inform{
+    width: 563px;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left:36px;
+}
+.warning-icon{
+    width: 23px;
+    height: 26px;
+
+}
+.warning{
+    width: 563px;
+    height: 44px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+}
+.success-icon{
+    width: 23px;
+    height: 26px;
+}
+.Success{
+    width: 563px;
+    height: 44px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    margin-left:36px;
+}
+.erro-info{
+    display: flex;
+    flex-direction: row;
+}
+.war-succ{
+    display: flex;
+    flex-direction: row;
+}
+
 .cta{
     width: 106px;
     height: 24px;
     font-size: 18px;
     margin-top: 25px;
+}
+.btn1{
+    width: 124px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    margin-top: 15px;
+}
+.btn2{
+    width: 124px;
+    height: 45px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    margin-top: 15px;
+}
+.tabs{
+    width: 39px;
+    height: 24px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.tab123{
+    width: 39px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+
+}
+.tab1{
+    color: #C8242F;
 }
