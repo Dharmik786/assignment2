@@ -12,10 +12,11 @@
         <section class="section">
         <header>
             <div>
-            <img class="menu-bar" src="/image/menu-bar.svg">
+            <a id="menu-img"><img class="menu-bar" src="/image/menu-bar.svg"></a> 
             </div>
             <div>
             <img class="header-logo" src="/image/header-logo.svg">
+            <img class="header-logo-mobile" src="/image/favicon.ico" >
             </div>
             <div>
             <img class="search-icon" src="/image/search-icon.svg" >
@@ -25,13 +26,13 @@
             <div class="right-header">
             <img  class="bell" src="/image/notification-icon.svg">
             <img class="profile-pic" src="/image/profile.png" >
-            <span>John Doe</span>
+            <span  class="john-doe-span">John Doe</span>
             <img class="downward-arrow" src="/image/downward-arrow.svg" >
             </div>
         </header>
     
         <div class="Second-row">
-            <div class="left-bar">
+            <div class="left-bar" id="slider">
                 <div class="slide-item-active">
                     <img src="/image/dashboard-active.svg" class="icon" >
                     <span class="span2">Dashboard</span>
@@ -134,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id="table">
                     <div class="iv">
                         <!-- <span class="siv">Invoices</span> -->
                         <h3>Invoices</h3>
@@ -229,5 +230,12 @@
             
         </div>
     </section>
+
+    <script>
+        document.getElementById("menu-img").onclick=function(){
+            document.getElementById("slider").classList.toggle("display-none");
+        }
+    </script>
+
     </body>
 </html>
