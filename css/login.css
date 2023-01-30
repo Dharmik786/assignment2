@@ -2,7 +2,8 @@
     /* height: 720px; */
     /* width: 1560px; */
     width: auto;
-    display: contents;
+    display: flex;
+    flex-direction: row;
 }
 .left{
     width: 576px;
@@ -108,7 +109,7 @@ button{
     cursor: pointer;
 }
 
-@media only screen and (min-width:360px) and (max-width:1300px){
+@media screen and (min-width:360px) and (max-width:980px){
     .conatiner{
         display: contents;
     }
@@ -154,8 +155,66 @@ button{
 
     }
 }
-@media only screen and (min-width:1301px) and (max-width:1422px){
+
+@media screen and (min-width:981px) and (max-width:1023px){
+    .conatiner{
+        display: flex;
+        flex-direction: row;
+    }
+    .left{
+        /* width: 400px; */
+        /* margin-left: 10%; */
+    }
+    #hero{
+        /* width: 400px; */
+        /* height: 400px; */
+        margin-top: 150px;
+    }
+    #favicon{
+        width: 600px;
+        height: 224px
+   }
+    #txt{
+        width: 80%;
+    font-size: 50px
+    }
+    #log{
+        font-size: 30px;
+        width: auto;
+        margin-top: 10px;
+
+    }
+    #uname{
+        width: 70%;
+        height: 60px;
+    }
+    #pwd{
+        width: 70%;
+        height: 60px;
+    }
+    #btn{
+        width: 157px;
+        height: 60px;
+        font-size: 28px;
+    }
+    #fp{
+        font-size: 33px;
+    }
+    #nm{
+        font-size: 35px;
+
+    }
+    
+}
+
+/* @media only screen and (min-width:981px) and (max-width:1300px){
+     /* .left{
+        display: none;
+    }    */
+}
+/* @media only screen and (min-width:1301px) and (max-width:1422px){
     .left{
         margin-left: auto;
     }
-}
+   
+} */ 
