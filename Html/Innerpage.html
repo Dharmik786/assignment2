@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Innerpage</title>
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-         <link rel="stylesheet" href="/css/Innerpage.css">
-    </head>
-    <body>
-        <section class="section">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerpage</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Innerpage.css">
+</head>
+
+<body>
+    <section class="section">
         <header>
             <div>
-            <img class="menu-bar" src="/image/menu-bar.svg">
+                <a id="menu-img"><img class="menu-bar" src="/image/menu-bar.svg"></a>
             </div>
             <div>
-            <img class="header-logo" src="/image/header-logo.svg">
+                <img class="header-logo" src="/image/header-logo.svg">
+                <img class="header-logo-mobile" src="/image/favicon.ico">
             </div>
             <div>
-            <img class="search-icon" src="/image/search-icon.svg" >
+                <img class="search-icon" src="/image/search-icon.svg">
             </div>
             <input class="search-box" type="text" placeholder="Search">
-            
+
             <div class="right-header">
-            <img  class="bell" src="/image/notification-icon.svg">
-            <img class="profile-pic" src="/image/profile.png" >
-            <span>John Doe</span>
-            <img class="downward-arrow" src="/image/downward-arrow.svg" >
+                <img class="bell" src="/image/notification-icon.svg">
+                <img class="profile-pic" src="/image/profile.png">
+                <span>John Doe</span>
+                <img class="downward-arrow" src="/image/downward-arrow.svg">
             </div>
         </header>
-    
+
         <div class="Second-row">
-            <div class="left-bar">
+            <div class="left-bar" id="slider">
                 <div class="slide-item-active">
-                    <img src="/image/dashboard-active.svg" class="icon" >
+                    <img src="/image/dashboard-active.svg" class="icon">
                     <span class="span2">Dashboard</span>
                 </div>
                 <div class="slide-item">
@@ -63,25 +66,26 @@
             </div>
             <div class="right-bar">
                 <div>
-                <span class="sa">Analysis</span>
+                    <span class="sa">Analysis</span>
                 </div>
                 <form class="form-analysis" action="">
                     <div>
                         <h3>One Column</h3>
                         <input type="text" class="uname" placeholder="Name">
-                        <select class="dropdown"  name="Dropdown" id="">
+                        <select class="dropdown" name="Dropdown" id="">
                             <option value="" selected>Dropdown</option>
                             <option value="1">1</option>
                             <option value="2">1</option>
                         </select>
-                        <textarea id="textarea" name="textarea" cols="30" rows="10" placeholder="Multiple Line"></textarea>
+                        <textarea id="textarea" name="textarea" cols="30" rows="10"
+                            placeholder="Multiple Line"></textarea>
                     </div>
                     <div id="column2">
                         <h3>Two column</h3>
                         <input type="text" class="unmae2" placeholder="Name">
                         <input type="text" class="uname3" placeholder="johndear">
                         <input type="password" class="psw" placeholder="password">
-                        <select class="dropdown2"  name="Dropdown" id="">
+                        <select class="dropdown2" name="Dropdown" id="">
                             <option value="" selected>Dropdown</option>
                             <option value="1">1</option>
                             <option value="2">1</option>
@@ -89,7 +93,12 @@
                     </div>
                     <div id="column3">
                         <h3>Three Column</h3>
+                        <!-- <fieldset><legend>Text</legend></fieldset> -->
                         <input type="text" id="" class="uname4" placeholder="">
+                        <!-- <fieldset >
+                            <legend>Disable</legend><input type="text" placeholder="Johndoe"">
+                        </fieldset> -->
+                        <!-- <fieldset style="border: 1px solid black; margin-top: 10px;"><legend>ddfhb</legend> <input type="text"></fieldset> -->
                         <input type="password" class="psw2" placeholder="password">
                         <input type="text" class="disabled" placeholder="disabled" disabled>
                     </div>
@@ -98,53 +107,58 @@
                         <input type="text" class="designation" placeholder="Designation">
                         <input type="text" id="" class="uname5" placeholder="Name">
                         <input type="text" class="uname6" placeholder="johndone">
-                        <select class="dropdown3"  name="Selected" id="">
+                        <select class="dropdown3" name="Selected" id="">
                             <option value="" selected>Dropdown</option>
                             <option value="1">1</option>
                             <option value="2">1</option>
                         </select>
                     </div>
-                    <div><p class="ode">Other Design Elements</p></div>
+                    <div>
+                        <p class="ode">Other Design Elements</p>
+                    </div>
                     <div>
                         <p class="fp">File Upload</p>
-                        <input type="file" class="file-upload">
+                        <div class="upload"> 
+                            <img class="upload-icon" src="/image/cloud-upload-icon.svg">
+                            <span>Upload</span>
+                        </div>
                     </div>
-                    <div>
+                    <div class="radios">
                         <p class="rb">Radio Button</p>
-                        <input type="radio" name="radio" id=""><span>Radio1</span>
-                        <input type="radio" name="radio" id=""><span>Radio2</span>
+                        <input class="radio" type="radio" name="radio" id=""><span>Radio1</span>
+                        <input class="radio" type="radio" name="radio" id=""><span>Radio2</span>
                     </div>
-                    <div>
+                    <div class="checkboxs">
                         <p class="cb">Chek Box</p>
-                        <input type="checkbox" name="checkbox" id=""><span>Option 1</span>
-                        <input type="checkbox" name="checkbox" id=""><span>Option 2</span>
+                        <input class="checkbox" type="checkbox" name="checkbox" id=""><span>Option 1</span>
+                        <input class="checkbox" type="checkbox" name="checkbox" id=""><span>Option 2</span>
                     </div>
                     <div>
-                        <h4>Snackbar</h4>
+                        <p class="snackbar">SnackBar</p>
                         <div>
                             <!-- <input type="text" id="error" placeholder="This is an error Message">
                             <input type="text" class="inform" placeholder="This is an Information Message">
                             <input type="text" class="warning" placeholder="This is an warning Message">
                             <input type="text" class="Success" placeholder="This is an Success Message"> -->
                             <div class="erro-info">
-                            <div class="error">
-                                <img class="error-icon" src="/image/error-icon.svg">
-                                This is an error Message.
-                            </div>
-                            <div class="inform">
-                                <img class="info-icon" src="/image/info-icon.svg">
-                                This is an Information Message.
-                            </div>
+                                <div class="error">
+                                    <img class="error-icon" src="/image/error-icon.svg">
+                                    This is an error Message.
+                                </div>
+                                <div class="inform">
+                                    <img class="info-icon" src="/image/info-icon.svg">
+                                    This is an Information Message.
+                                </div>
                             </div>
                             <div class="war-succ">
-                            <div class="warning">
-                                <img class="warning-icon" src="/image/warning-icon.svg">
-                                This is an warning Message.
-                            </div>
-                            <div class="Success">
-                                <img class="success-icon" src="/image/success-icon.svg">
-                                This is an Success Message.
-                            </div>
+                                <div class="warning">
+                                    <img class="warning-icon" src="/image/warning-icon.svg">
+                                    This is an warning Message.
+                                </div>
+                                <div class="Success">
+                                    <img class="success-icon" src="/image/success-icon.svg">
+                                    This is an Success Message.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -154,27 +168,33 @@
                         <button class="btn2">Secondary</button>
                     </div>
                     <div>
-                        <div class="tabs">Tabs</div>     
+                        <div class="tabs">Tabs</div>
                         <div class="tab123">
-                        <span class="tab1">Tab1</span>     
-                        <span class="tab2">Tab2</span>     
-                        <span class="tab3">Tab3</span>     
+                            <span class="tab1">Tab1</span>
+                            <span class="tab2">Tab2</span>
+                            <span class="tab3">Tab3</span>
                         </div>
                         <hr>
                         <p>Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the 
+                            and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s,
-                             when an unknown printer took a galley of type and 
-                             scrambled it to make a type specimen book. It has survived 
-                             not only five centuries, but also the leap into electronic 
-                             typesetting, remaining essentially unchanged. It was popularised 
-                             in the 1960s with the release of Letraset sheets containing
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was popularised
+                            in the 1960s with the release of Letraset sheets containing
                         </p>
                     </div>
                 </form>
             </div>
-            </div>
         </div>
-        </section>
-    </body>
+        </div>
+    </section>
+    <script>
+        document.getElementById("menu-img").onclick = function () {
+            document.getElementById("slider").classList.toggle("display-none");
+        }
+    </script>
+</body>
+
 </html>
